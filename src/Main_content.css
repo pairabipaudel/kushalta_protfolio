@@ -1,0 +1,390 @@
+*{
+    font-family:oppen-sans,sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.full_cointainer{
+    background-color: black;
+}
+
+header{
+    width:100vw;
+    height:80px;
+    background-color: aliceblue;
+    
+    z-index: 1000; 
+    position: fixed;   
+    top: 0;           
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.way_page{
+      margin-left: 80px;
+      color: black;
+      background-color: aliceblue;
+}
+
+#introduce{
+    margin-top: 80px;
+    display: flex;
+    grid-template-columns: 4fr,4fr;
+   
+}
+
+.about_introduce{
+    
+    margin: 10px 0px 10px 10px;
+    width:50vw;
+    margin-bottom: 20px;
+}
+
+.name{
+    
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 44px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+  
+}
+
+.profession{
+     margin-top: 100px;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+}
+
+.about_me{
+    color: white;
+    width:30vw;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top:15px;
+}
+
+.image_introduction{
+    width: 100px;
+   justify-items: right;
+}
+
+#contact{
+    display: flex;
+    color:rgb(168, 165, 165);
+    margin-left: 20px;
+    margin-top: 30px;
+    gap:100px;
+    font-size: 18px;
+    line-height: 30px;
+    display: block;
+}
+
+#contact span{
+    font-weight: 600;
+}
+
+.moto{
+    margin-top: 15px;
+    font-size: 17px;
+    color: grey;
+    font-weight: 800;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.achievements{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   gap: 30px;
+   margin-bottom: 20px;
+}
+
+.achiments_button{
+   height: 150px;
+   width:250px;
+   border-radius: 10px;
+   border: none;
+   background-color: darkgrey;
+   margin-bottom: 15px;
+   opacity: 0.8;
+}
+
+.achiments_button1{
+    font-size: 80px;
+    display: block;
+    color: white;
+}
+
+.achiments_button2{
+    font-size: 18px;
+    color: white;
+}
+
+.skills_education_container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 99vw;
+    background-color: gray;
+    color: white;
+    gap:100px
+}
+
+.skills_title{
+    font-size: 29px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    width: 50vw;
+    text-align: center;
+    
+    color: white;
+    padding-top: 20px;
+}
+
+.edu_title{
+    font-size: 29px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    width: 40vw;
+    text-align: center;
+    
+    color: white;
+    padding-top: 20px;
+}
+
+.skills{
+    
+    display: block;
+    width: 35vw;
+    
+}
+
+.profession_skill,
+.soft_skill{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.profession_skill p, 
+.soft_skill p{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+
+.profession_skill ul, 
+.soft_skill ul{
+    margin-left: 40px; 
+    margin-bottom: 35px;  
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.education{
+ 
+
+ color: white;
+  gap:15px;
+  border-left: 2px solid black;
+}
+
+
+
+.edu1{
+  width:50vw;
+  color: white;
+  padding-left: 40px;
+  
+}
+
+.edu_bachelor{
+    font-family: Montserrat, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.edu_certificate{
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    font-style: italic;
+    color: rgb(204, 202, 202);
+    
+}
+
+.university_name{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.edu_date{
+    color: rgb(174, 173, 173);
+    font-size: 15px;
+    text-align:right;
+    margin-left: 50px;
+}
+
+.edu_description{
+    font-size: 17px;
+    color: rgb(201, 199, 199);
+}
+
+
+
+.full_project{
+    
+    margin-top: 50px;
+}
+
+.proj_title{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size:29px;
+    font-weight: 600;
+    padding: 2px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    border: none;
+}
+
+.project_img{
+    width:290px;
+}
+
+.project{
+    border:2px solid gray;
+    width: 460px;
+    margin-left: 20px;
+}
+
+.project:hover{
+    transform: scale(1.09);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.proj_name{
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+
+#projects{
+    margin-top: 20px;
+ display:grid;
+ grid-template-columns: repeat(3,1fr);
+ color: white;
+  gap:20px;
+  border:none;
+}
+
+.proj_description{
+    padding-top: 10px;
+    font-size:15px ;
+    color: grey;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.proj_tools button{
+    border:1px solidgray;
+    background-color: gray;
+    color: white;
+    padding:10px;
+    margin:5px;
+    
+}
+
+.work_title{
+    font-size: 29px;
+    font-weight: 600;
+    padding: 2px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-family: Montserrat, sans-serif;
+    margin-top: 30px;
+}
+
+.work{
+    color: white;
+    background-color: gray;
+    width: 40vw;
+    padding: 10px 10px 10px 10px;
+}
+
+.work_name{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 7px;
+}
+
+.work_description{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: grey;
+
+}
+
+.work_description li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    margin-left: 6px;
+}
+
+.work_time{
+    color: grey;
+    font-size: 17px;
+    
+    font-weight: 600;
+}
+
+.tools_container{
+    margin-top: -420px;
+}
+
+
+.tools_title{
+    font-size: 29px;
+    font-weight: 600;
+    padding: 2px;
+    font-family: Montserrat, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.tools_img_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.tools_img{
+    width:50px;
+    margin:20px 40px 20px 40px;
+    opacity: 0.6;
+}
+
+
